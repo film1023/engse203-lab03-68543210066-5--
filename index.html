@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Service Request</title>
     <link rel="stylesheet" href="./src/style.css">
 </head>
+
 <body>
     <header>
         <h1>Campus Service Request</h1>
@@ -24,8 +26,9 @@
 
                 <div class="form-group">
                     <label for="requestDetail">รายละเอียดคำร้อง:</label>
-                    <textarea id="requestDetail" name="requestDetail" required aria-describedby="detailError"></textarea>
-                    <span id="detailError" class="error-msg" aria-live="polite"></span>
+                    <textarea id="requestDetail" name="requestDetail" required
+                        aria-describedby="detailError"></textarea> <span id="detailError" class="error-msg"
+                        aria-live="polite"></span>
                 </div>
 
                 <button type="submit">ส่งคำร้อง</button>
@@ -46,4 +49,5 @@
 
     <script type="module" src="./src/app.js"></script>
 </body>
+
 </html>
